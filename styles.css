@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0  100px;
+}
+
+.hero-message {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-placeholder {
+    background-color: rgb(249, 250, 248, 0.4);
+    font-size: 18px;
+    height: 200px;
+    width: 700px;
+    margin-left: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-head  {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.hero-signup {
+    color: #eee;
+    font-weight: 900;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    padding: 10px;
+}
+
+button.hero-signup:hover {
+    background-color: #1F2937;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
