@@ -1,4 +1,4 @@
-#odin-landing-page
+# odin-landing-page
 
 This repository was created for the Flexbox Activity of The Odin's Project Foundations Course.
 
